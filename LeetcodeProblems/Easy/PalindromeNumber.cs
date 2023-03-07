@@ -22,11 +22,7 @@
                 number = number / 10;
             }
 
-            if (reverseNumber == temp)
-            {
-                return true;
-            }
-            return false;
+            return (temp == reverseNumber);
         }
     }
 }
